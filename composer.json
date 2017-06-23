@@ -1,0 +1,22 @@
+{
+    "name": "mindy/manifest-version-strategy",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mindy\\ManifestVersionStrategy\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Maxim Falaleev",
+            "email": "max@studio107.ru"
+        }
+    ],
+    "require": {
+        "symfony/asset": "~3.0"
+    }
+}
